@@ -1,0 +1,235 @@
+:root {
+  --color: #292F36;
+  --weak-color: #4D5053;
+  --accent-color: #CDA274;
+  --serif: "Jost", serif;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  padding-right: 40px;
+  color: var(--color);
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.create {
+  background-image: url(image/background-create.png);
+  width: 1440px;
+  height: 831px;
+  margin: auto;
+}
+
+.create h2 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  max-width: 50%;
+  color: var(--color);
+}
+
+.create p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--weak-color);
+  max-width: 50%;
+}
+
+/*разобраться с размером кнопок */
+.create button {
+  padding: 22px 67px 22px 34px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  background-color: var(--color);
+  font-size: 18px;
+}
+
+.design .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.design .furniture {
+  text-align: center;
+}
+
+.design h3 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 39px;
+  color: var(--color);
+}
+
+.design p {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  max-width: 77%;
+  margin: auto;
+}
+
+.design a {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.estimate .container {
+  background-image: url(image/background-estimate.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 645px;
+}
+
+.estimate h2 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 65px;
+  color: var(--color);
+  max-width: 50%;
+}
+
+.estimate p {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--weak-color);
+  max-width: 44%;
+}
+
+.estimate .call {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.estimate h4 {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--weak-color);
+  margin: 0 0 0 20px;
+}
+
+.estimate button {
+  padding: 21px 67px 23px 34px;
+  color: white;
+  background-color: var(--color);
+  border-radius: 10px;
+}
+
+.estimate a {
+  margin: 0;
+}
+
+.reviews .container {
+  width: 1200px;
+  height: 675px;
+  background-color: #F4F0EC;
+  border-radius: 50px;
+}
+
+.reviews h2 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58px;
+  text-align: center;
+  columns: var(--color);
+  max-width: 50%;
+  margin: auto;
+  padding: 103px 360px 46px 360px;
+}
+
+
+.allreviews {
+  display: flex;
+  justify-content: space-around;
+}
+
+.reviews .review {
+  width: 354px;
+  height: 287px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.reviews .people {
+  display: flex;
+  padding: 50px 0 0 0;
+}
+
+/*как поставить тексти фото посередине блока*/
+.reviews .name {
+  padding-left: 10px;
+}
+
+.reviews h4 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  color: var(--color);
+  margin: 0;
+}
+
+.reviews h5 {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--weak-color);
+  margin: 0;
+}
+
+.reviews p {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--weak-color);
+  max-width: 70%;
+}
+
+.brands ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 140px;
+
+}
