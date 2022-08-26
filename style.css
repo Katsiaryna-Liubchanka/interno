@@ -231,5 +231,339 @@ header li {
   justify-content: space-around;
   align-items: center;
   padding-top: 140px;
+}
 
+.projects h2 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 62px;
+  color: var(--color);
+  text-align: center;
+}
+
+.projects p {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--weak-color);
+  text-align: center;
+  max-width: 65%;
+  margin: auto;
+}
+
+.project-first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects .column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.projects h3 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  color: var(--color);
+  margin: 0;
+}
+
+.projects h4 {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--weak-color);
+  margin: 0;
+}
+
+.projects .img {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  background-color: #F4F0EC;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistics {
+  background-color: #F4F0EC;
+  width: 1400px;
+  height: 475px;
+  margin: auto;
+}
+
+.statistics .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statistic {
+  width: 288px;
+  height: 195px;
+}
+
+.statistics h2 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 85px;
+  line-height: 128px;
+  color: var(--accent-color);
+  margin: 0;
+}
+
+.statistics h3 {
+  font-family: var(--weak-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  columns: var(--weak-color);
+  margin: 0;
+}
+
+.RecentBlogs h2 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 62px;
+  color: var(--color);
+  text-align: center;
+}
+
+.RecentBlogs p {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--weak-color);
+  text-align: center;
+  max-width: 50%;
+  margin: auto;
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.RecentBlogs .blog {
+  height: 515px;
+  width: 387px;
+  border: 1px solid #F4F0EC;
+  border-radius: 30px;
+}
+
+/*задала background pos:a, ф h3 pos:r*/
+
+.RecentBlogs.background {
+  position: relative;
+}
+
+.RecentBlogs .name h3 {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--weak-color);
+  margin: 0 0 40px 0;
+  pad: 9px 10px 11px 10px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+
+}
+
+.RecentBlogs h4 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  color: var(--color);
+  max-width: 80%;
+  margin: 0;
+}
+
+.RecentBlogs .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.RecentBlogs h5 {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--weak-color);
+  margin: 0;
+  text-align: center;
+}
+
+.RecentBlogs .img {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  background-color: #F4F0EC;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*как все поставить посередине*/
+
+.connect .container {
+  height: 414px;
+  background-color: var(--color);
+  text-align: center;
+
+}
+
+.connect h2 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 75px;
+  color: white;
+  margin: 0;
+}
+
+.connect h3 {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: white;
+  margin: 0;
+}
+
+.connect button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 241px;
+  height: 71px;
+  background-color: #CDA274;
+  border-radius: 10px;
+}
+
+.connect p {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+}
+
+footer .info {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+footer p {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--color);
+  max-width: 80%;
+}
+
+.networks .network {
+  display: flex;
+  justify-content: start;
+  padding: 0;
+}
+
+.network li {
+  padding-right: 16.8px;
+}
+
+footer h4 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  color: var(--color);
+}
+
+footer ul {
+padding: 0;
+}
+
+footer li {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--color);
+  padding-bottom: 30px;
+}
+
+footer .column:first-child {
+width: 393px;
+height: 374px;
+}
+
+footer .column:not(:first-child):not(:last-child) {
+  width: 210px;
+  height: 374px;
+}
+
+footer .column:last-child {
+width: 337px;
+height: 374px;
+}
+
+hr {
+  margin: 0;
+  border: 0;
+  height: 1px;
+  background-color: #A6A4A4;
+  opacity: 0.2;
+  margin-top: 110px;
+}
+
+footer h5 {
+  font-family: var(--serif);
+  font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+color: #4D5053;
+text-align: center;
+}
+
+footer span {
+color: var(--accent-color);
 }
