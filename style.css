@@ -6,7 +6,7 @@
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -14,14 +14,19 @@
 header .container {
   display: flex;
   justify-content: space-between;
+  margin-top: 26px;
+}
+
+header a{
+margin-bottom: 71px;
 }
 
 header ul {
   display: flex;
+  gap: 40px;
 }
 
 header li {
-  padding-right: 40px;
   color: var(--color);
   font-family: var(--serif);
   font-style: normal;
@@ -43,8 +48,10 @@ header li {
   font-weight: 400;
   font-size: 80px;
   line-height: 96px;
-  max-width: 50%;
+  max-width: 595px;
   color: var(--color);
+  padding: 183px 0px 0px 0px;
+  margin: 0;
 }
 
 .create p {
@@ -52,16 +59,34 @@ header li {
   font-size: 22px;
   line-height: 33px;
   color: var(--weak-color);
-  max-width: 50%;
+  max-width: 577px;
+  padding-top: 24px;
 }
 
-/*разобраться с размером кнопок */
 .create button {
-  padding: 22px 67px 22px 34px;
+  height: 71px;
+  width: 207px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
-  color: #FFFFFF;
   background-color: var(--color);
+  margin-top: 35px;
+}
+
+.create button p {
+  font-family: var(--serif);
+  font-style: normal;
+  font-weight: 400;
   font-size: 18px;
+  line-height: 27px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.design {
+padding-bottom: 130px;
 }
 
 .design .container {
@@ -80,6 +105,7 @@ header li {
   font-size: 25px;
   line-height: 39px;
   color: var(--color);
+  margin-top: 135px;
 }
 
 .design p {
@@ -88,8 +114,9 @@ header li {
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
-  max-width: 77%;
+  max-width: 317px;
   margin: auto;
+  margin-bottom: 68px;
 }
 
 .design a {
@@ -98,6 +125,10 @@ header li {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
+}
+
+.estimate {
+  margin-bottom: 140px;
 }
 
 .estimate .container {
@@ -124,7 +155,8 @@ header li {
   font-size: 22px;
   line-height: 33px;
   color: var(--weak-color);
-  max-width: 44%;
+  max-width: 531px;
+  margin-bottom: 30px;
 }
 
 .estimate .call {
@@ -153,6 +185,10 @@ header li {
   margin: 0;
 }
 
+.reviews {
+  padding-bottom: 140px;
+}
+
 .reviews .container {
   width: 1200px;
   height: 675px;
@@ -176,14 +212,23 @@ header li {
 
 .allreviews {
   display: flex;
-  justify-content: space-around;
 }
 
 .reviews .review {
-  width: 354px;
+  width: 318px;
   height: 287px;
   background-color: white;
   border-radius: 20px;
+  padding-left: 38px;
+  margin-right: 16px;
+}
+
+.reviews .review:first-child {
+  margin-left: 50px;
+}
+
+.reviews .review:last-child {
+  margin-right: 0;
 }
 
 .reviews .people {
@@ -191,7 +236,6 @@ header li {
   padding: 50px 0 0 0;
 }
 
-/*как поставить тексти фото посередине блока*/
 .reviews .name {
   padding-left: 10px;
 }
@@ -223,14 +267,14 @@ header li {
   font-size: 20px;
   line-height: 30px;
   color: var(--weak-color);
-  max-width: 70%;
+  max-width: 274px;
 }
 
 .brands ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 140px;
+  margin: 0;
 }
 
 .projects h2 {
@@ -241,6 +285,7 @@ header li {
   line-height: 62px;
   color: var(--color);
   text-align: center;
+  margin: 0;
 }
 
 .projects p {
@@ -251,18 +296,22 @@ header li {
   line-height: 33px;
   color: var(--weak-color);
   text-align: center;
-  max-width: 65%;
+  max-width: 786px;
   margin: auto;
+  margin-top: 24px;
+  margin-bottom: 70px;
 }
 
 .project-first {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 60px;
 }
 
 .project-second {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 140px;
 }
 
 .projects .column {
@@ -280,6 +329,7 @@ header li {
   line-height: 38px;
   color: var(--color);
   margin: 0;
+  margin-top: 24px;
 }
 
 .projects h4 {
@@ -302,11 +352,16 @@ header li {
   align-items: center;
 }
 
+.brands {
+  padding-bottom: 100px;
+}
+
 .statistics {
   background-color: #F4F0EC;
   width: 1400px;
   height: 475px;
   margin: auto;
+  margin-bottom: 130px;
 }
 
 .statistics .container {
@@ -317,6 +372,8 @@ header li {
 .statistic {
   width: 288px;
   height: 195px;
+  text-align: center;
+  padding-top: 140px;
 }
 
 .statistics h2 {
@@ -339,6 +396,10 @@ header li {
   margin: 0;
 }
 
+.RecentBlogs {
+  padding-bottom: 141px;
+}
+
 .RecentBlogs h2 {
   font-family: 'DM Serif Display';
   font-style: normal;
@@ -347,6 +408,7 @@ header li {
   line-height: 62px;
   color: var(--color);
   text-align: center;
+  margin-bottom: 21px;
 }
 
 .RecentBlogs p {
@@ -359,12 +421,14 @@ header li {
   text-align: center;
   max-width: 50%;
   margin: auto;
+  margin-bottom: 70px;
 }
 
 .blogs {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  row-gap: 40px;
 }
 
 .RecentBlogs .blog {
@@ -374,13 +438,12 @@ header li {
   border-radius: 30px;
 }
 
-/*задала background pos:a, ф h3 pos:r*/
-
-.RecentBlogs.background {
+.RecentBlogs .background {
   position: relative;
+  padding: 21px 21px 41px 21px;
 }
 
-.RecentBlogs .name h3 {
+.RecentBlogs .background h3 {
   font-family: var(--serif);
   font-style: normal;
   font-weight: 400;
@@ -388,10 +451,12 @@ header li {
   line-height: 24px;
   color: var(--weak-color);
   margin: 0 0 40px 0;
-  pad: 9px 10px 11px 10px;
+  padding: 9px 10px 11px 10px;
   background-color: white;
   border-radius: 10px;
   position: absolute;
+  top: 224px;
+  margin-left: 24px;
 
 }
 
@@ -402,8 +467,9 @@ header li {
   font-size: 25px;
   line-height: 35px;
   color: var(--color);
-  max-width: 80%;
+  max-width: 337px;
   margin: 0;
+  margin-left: 21px;
 }
 
 .RecentBlogs .row {
@@ -421,6 +487,7 @@ header li {
   color: var(--weak-color);
   margin: 0;
   text-align: center;
+  margin-left: 21px;
 }
 
 .RecentBlogs .img {
@@ -431,14 +498,19 @@ header li {
   border-radius: 100px;
   justify-content: center;
   align-items: center;
+  margin-right: 21px;
+  margin-bottom: 40.5px;
 }
 
-/*как все поставить посередине*/
+.connect {
+  padding-bottom: 80px;
+}
+
 
 .connect .container {
   height: 414px;
   background-color: var(--color);
-  text-align: center;
+  border-radius: 60px;
 
 }
 
@@ -450,6 +522,7 @@ header li {
   line-height: 75px;
   color: white;
   margin: 0;
+  padding: 100px 333px 9px 333px;
 }
 
 .connect h3 {
@@ -459,7 +532,13 @@ header li {
   font-size: 22px;
   line-height: 33px;
   color: white;
+  padding-left: 414px;
   margin: 0;
+}
+.connect_btn {
+  display: inline-block;
+  margin-left: 474px;
+  margin-top: 31px;
 }
 
 .connect button {
@@ -517,7 +596,7 @@ footer h4 {
 }
 
 footer ul {
-padding: 0;
+  padding: 0;
 }
 
 footer li {
@@ -531,8 +610,8 @@ footer li {
 }
 
 footer .column:first-child {
-width: 393px;
-height: 374px;
+  width: 393px;
+  height: 374px;
 }
 
 footer .column:not(:first-child):not(:last-child) {
@@ -541,8 +620,8 @@ footer .column:not(:first-child):not(:last-child) {
 }
 
 footer .column:last-child {
-width: 337px;
-height: 374px;
+  width: 337px;
+  height: 374px;
 }
 
 hr {
@@ -557,13 +636,13 @@ hr {
 footer h5 {
   font-family: var(--serif);
   font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 33px;
-color: #4D5053;
-text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #4D5053;
+  text-align: center;
 }
 
 footer span {
-color: var(--accent-color);
+  color: var(--accent-color);
 }
