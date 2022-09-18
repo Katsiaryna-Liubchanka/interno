@@ -35,6 +35,10 @@ header li {
   line-height: 30px;
 }
 
+header li:hover {
+  color: var(--accent-color);
+}
+
 .create {
   background-image: url(image/background-create.png);
   width: 1440px;
@@ -86,6 +90,10 @@ header li {
   padding: 0;
 }
 
+.create button p:hover {
+  color: var(--accent-color);
+}
+
 .design {
   padding-bottom: 130px;
 }
@@ -126,6 +134,10 @@ header li {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
+}
+
+.design a:hover {
+  color: var(--accent-color);
 }
 
 .estimate {
@@ -198,6 +210,10 @@ header li {
   line-height: 27px;
 }
 
+.estimate P:hover {
+  color: var(--accent-color);
+}
+
 .reviews {
   padding-bottom: 140px;
 }
@@ -234,6 +250,10 @@ header li {
   border-radius: 20px;
   padding-left: 38px;
   margin-right: 16px;
+}
+
+.reviews .review:hover {
+  box-shadow: 0px 0px 2px 2px var(--accent-color);
 }
 
 .reviews .review:first-child {
@@ -365,6 +385,10 @@ header li {
   align-items: center;
 }
 
+.projects .img:hover {
+  background-color: var(--accent-color);
+}
+
 .brands {
   padding-bottom: 100px;
 }
@@ -388,6 +412,16 @@ header li {
   text-align: center;
   padding-top: 140px;
 }
+
+.statistic:before {
+  content: "";
+  background: #CDA274;
+  width: 1px;
+  height: 195px;
+  float: right;
+}
+
+/*установила черточки, как убрать последнюю*/
 
 .statistics h2 {
   font-family: 'DM Serif Display';
@@ -468,7 +502,7 @@ header li {
   background-color: white;
   border-radius: 10px;
   position: absolute;
-  top: 224px;
+  top: 246px;
   margin-left: 24px;
 
 }
@@ -513,6 +547,10 @@ header li {
   align-items: center;
   margin-right: 21px;
   margin-bottom: 40.5px;
+}
+
+.RecentBlogs .img:hover {
+  background-color: var(--accent-color);
 }
 
 .connect {
@@ -575,6 +613,10 @@ header li {
   color: white;
 }
 
+.connect p:hover {
+  color: :var(--color);
+}
+
 footer .info {
   display: flex;
   justify-content: space-between;
@@ -599,6 +641,7 @@ footer p {
 
 .network li {
   padding-right: 16.8px;
+  padding-right: 40px;
 }
 
 footer h4 {
@@ -624,6 +667,10 @@ footer li {
   line-height: 33px;
   color: var(--color);
   padding-bottom: 30px;
+}
+
+footer li:hover {
+  color: var(--accent-color);
 }
 
 footer .column:first-child {
